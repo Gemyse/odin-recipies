@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+  text-align: center;
+  color: orange;
+  background-color: blue;
+  font-weight: 800;
+  font-size: 60px;
+}
+.list {
+  color: yellow;
+  background-color: violet;
+  font-weight: 400;
+  font-size: 20px;
+}
+.container {
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+  height: 100%;
+}
+.img {
+  width: 1000px;
+  height: auto;
+}
